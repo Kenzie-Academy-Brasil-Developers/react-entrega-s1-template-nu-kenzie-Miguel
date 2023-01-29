@@ -1,0 +1,74 @@
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+
+  background: #212529;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.div-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  max-width: 330px;
+  max-height: 500px;
+  width: 90%;
+}
+
+.img-nuKenzie {
+  width: 123px;
+  height: 20px;
+}
+
+.title-landing {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.text-span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.img-illustration {
+  width: 100%;
+}
+
+.div-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .sec-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-illustration {
+    width: 60%;
+  }
+}

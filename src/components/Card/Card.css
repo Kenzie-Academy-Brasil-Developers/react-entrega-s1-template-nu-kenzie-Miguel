@@ -1,0 +1,5 @@
+.div-img {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}

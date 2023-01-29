@@ -1,0 +1,62 @@
+.start-btn {
+  padding: 13px 20px;
+
+  background: #fd377e;
+
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.buttonInit {
+  padding: 10px 15px;
+
+  background: #e9ecef;
+
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #343a40;
+}
+
+.insert-value {
+  width: 314px;
+  height: 48px;
+
+  color: #ffffff;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+}
+
+.insert-value__card {
+  padding: 13px 20px;
+  max-width: 314px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}

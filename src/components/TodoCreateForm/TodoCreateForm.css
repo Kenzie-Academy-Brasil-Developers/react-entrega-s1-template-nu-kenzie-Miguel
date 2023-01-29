@@ -1,0 +1,64 @@
+form {
+  width: 100%;
+  max-width: 363px;
+  max-height: 351px;
+  padding: 38px 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.input-desc {
+  padding: 14px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.input-value {
+  padding: 0px 16px;
+  max-width: 128px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.div-select {
+  display: flex;
+  gap: 36px;
+}
+
+.select-value {
+  padding: 14px 16px;
+  max-width: 150px;
+  width: 100%;
+  max-height: 50px;
+  height: 100%;
+
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.form-listCard {
+  display: flex;
+  gap: 58px;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+@media (max-width: 1000px) {
+  .form-listCard {
+    display: flex;
+    flex-direction: column;
+  }
+}
