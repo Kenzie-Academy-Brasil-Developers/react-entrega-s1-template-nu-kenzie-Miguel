@@ -1,5 +1,8 @@
-.title-card {
-  color: red;
+.li-card {
+  background: #f8f9fa;
+  padding: 0px 18px;
+  border-radius: 4px;
+  margin-bottom: 32px;
 }
 
 .div-card {
@@ -9,8 +12,4 @@
 
   width: 560px;
   height: 87px;
-}
-
-.button-remove {
-  height: 100%;
 }

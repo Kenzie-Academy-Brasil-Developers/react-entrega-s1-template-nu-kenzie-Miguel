@@ -5,7 +5,6 @@ import "./Card.css";
 export const Card = () => {
   return (
     <div>
-      <p>Resumo financeiro</p>
       <h2>Você ainda não possui nenhum lançamento</h2>
 
       <div className="div-img">
