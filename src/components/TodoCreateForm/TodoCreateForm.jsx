@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { InsertValueCard } from "../Buttons/buttons";
-import { Card } from "../Card/Card";
-import TodoList from "../TodoList";
+import { TodoList } from "../todoList";
 import "./TodoCreateForm.css";
 
 export const TodoCreateForm = ({

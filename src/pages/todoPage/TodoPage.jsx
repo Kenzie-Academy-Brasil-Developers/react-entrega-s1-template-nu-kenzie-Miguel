@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import TodoCreateForm from "../../components/TodoCreateForm";
-import TodoList from "../../components/TodoList";
+import { TodoCreateForm } from "../../components/TodoCreateForm";
 
 export const TodoPage = ({
   filteredTodoList,

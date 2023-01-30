@@ -1,8 +1,8 @@
 import { useState } from "react";
-import TodoPage from "./pages/TodoPage";
 import { HeaderHome } from "./components/Header/header";
 import { v4 as uuidv4 } from "uuid";
 import { LandingPages } from "./components/LandingPage/landingPage";
+import { TodoPage } from "./pages/todoPage";
 
 function App() {
   const [todoList, setTodoList] = useState([]);

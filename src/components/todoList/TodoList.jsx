@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "../Card/Card";
-import TodoCard from "./TodoCard";
+import { TodoCard } from "./todoCard";
 import "./todoList.css";
 
 export const TodoList = ({ filteredTodoList, removeTodoFromTodoList }) => {
