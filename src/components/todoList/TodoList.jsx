@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "../Card/Card";
 import TodoCard from "./TodoCard";
 import "./todoList.css";
 
@@ -16,7 +17,7 @@ export const TodoList = ({ filteredTodoList, removeTodoFromTodoList }) => {
           ))}
         </>
       ) : (
-        <p aria-label="alert">Você ainda não possui nenhum lançamento</p>
+        <Card />
       )}
     </ul>
   );

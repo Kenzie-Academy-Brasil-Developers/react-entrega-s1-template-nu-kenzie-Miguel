@@ -10,17 +10,17 @@ export const TodoPage = ({
 }) => {
   return (
     <div>
-      <TodoCreateForm addTodoToTodoList={addTodoToTodoList} />
+      <TodoCreateForm
+        addTodoToTodoList={addTodoToTodoList}
+        filteredTodoList={filteredTodoList}
+        removeTodoFromTodoList={removeTodoFromTodoList}
+      />
 
       {/* <ul>
        <button onClick={() => setFilter("")}>Todos</button>
         <button onClick={() => setFilter("Entrada")}>Entrada</button>
         <button onClick={() => setFilter("Saida")}>Saida</button>
   </ul>*/}
-      <TodoList
-        filteredTodoList={filteredTodoList}
-        removeTodoFromTodoList={removeTodoFromTodoList}
-      />
     </div>
   );
 };

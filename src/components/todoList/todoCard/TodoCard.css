@@ -1,0 +1,16 @@
+.title-card {
+  color: red;
+}
+
+.div-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 560px;
+  height: 87px;
+}
+
+.button-remove {
+  height: 100%;
+}

@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { InsertValueCard } from "../Buttons/buttons";
 import { Card } from "../Card/Card";
+import TodoList from "../TodoList";
 import "./TodoCreateForm.css";
 
-export const TodoCreateForm = ({ addTodoToTodoList }) => {
+export const TodoCreateForm = ({
+  addTodoToTodoList,
+  filteredTodoList,
+  removeTodoFromTodoList,
+}) => {
   const [formData, setFormData] = useState({
     title: "",
     content: "",
@@ -64,7 +69,10 @@ export const TodoCreateForm = ({ addTodoToTodoList }) => {
         <InsertValueCard />
       </form>
       <div>
-        <Card />
+        <TodoList
+          filteredTodoList={filteredTodoList}
+          removeTodoFromTodoList={removeTodoFromTodoList}
+        />
       </div>
     </main>
   );
