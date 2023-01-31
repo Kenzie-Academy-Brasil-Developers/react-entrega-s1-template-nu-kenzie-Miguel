@@ -18,6 +18,22 @@ form {
   background: #f8f9fa;
   border: 2px solid #f8f9fa;
   border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+.span-ex {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
 }
 
 .input-value {
@@ -29,6 +45,13 @@ form {
   background: #f8f9fa;
   border: 2px solid #f8f9fa;
   border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
 }
 
 .div-select {
@@ -46,6 +69,13 @@ form {
   background: #f8f9fa;
   border: 2px solid #f8f9fa;
   border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #343a40;
 }
 
 .form-listCard {
@@ -54,6 +84,21 @@ form {
   margin: 0 auto;
   max-width: 1100px;
   width: 100%;
+  margin-top: 39px;
+}
+
+.div-form-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 @media (max-width: 1000px) {

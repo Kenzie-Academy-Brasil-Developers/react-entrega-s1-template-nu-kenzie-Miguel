@@ -3,3 +3,17 @@
   flex-direction: column;
   gap: 34px;
 }
+.sub-title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+
+  margin-bottom: 27px;
+}
+
+.test {
+  width: 90%;
+  padding: 10px;
+}

@@ -7,7 +7,7 @@ import "./styleLanding.css";
 
 export const LandingPages = ({ setLanding }) => {
   return (
-    <main className="landing-page">
+    <div className="landing-page">
       <section className="sec-container">
         <div className="div-info">
           <img className="img-nuKenzie" src={nuKenzie} />
@@ -21,6 +21,6 @@ export const LandingPages = ({ setLanding }) => {
           <img className="img-illustration" src={Illustration} />
         </div>
       </section>
-    </main>
+    </div>
   );
 };

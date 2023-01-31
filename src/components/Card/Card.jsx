@@ -4,8 +4,8 @@ import "./Card.css";
 
 export const Card = () => {
   return (
-    <div>
-      <h2>Você ainda não possui nenhum lançamento</h2>
+    <div className="test">
+      <h2 className="sub-title">Você ainda não possui nenhum lançamento</h2>
 
       <div className="div-img">
         <img src={cardImg} />

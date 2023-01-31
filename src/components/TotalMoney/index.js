@@ -1,0 +1,1 @@
+export { TotalMoney } from "./TotalMoney";

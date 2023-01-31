@@ -1,4 +1,20 @@
+.title-finance {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  margin-bottom: 32px;
+
+  padding: 10px;
+}
 .ul-card {
-  list-style: none;
-  padding: 0px 0px;
+  width: 85%;
+}
+
+@media (min-width: 1000px) {
+  .ul-card {
+    width: 560px;
+  }
 }

@@ -6,7 +6,7 @@ import "./todoList.css";
 export const TodoList = ({ filteredTodoList, removeTodoFromTodoList }) => {
   return (
     <>
-      <p>Resumo financeiro</p>
+      <h2 className="title-finance">Resumo financeiro</h2>
       <ul className="ul-card">
         {filteredTodoList.length > 0 ? (
           <>

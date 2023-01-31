@@ -3,9 +3,11 @@ import { HeaderHome } from "./components/Header/header";
 import { v4 as uuidv4 } from "uuid";
 import { LandingPages } from "./components/LandingPage/landingPage";
 import { TodoPage } from "./pages/todoPage";
+import "./App.css";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
+  const [trasiction, setTrasiction] = useState([]);
   const [filter, setFilter] = useState("");
   const [page, setLanding] = useState(true);
 
@@ -37,6 +39,7 @@ function App() {
           addTodoToTodoList={addTodoToTodoList}
           removeTodoFromTodoList={removeTodoFromTodoList}
           setFilter={setFilter}
+          trasiction={trasiction}
         />
       </>
     </div>
