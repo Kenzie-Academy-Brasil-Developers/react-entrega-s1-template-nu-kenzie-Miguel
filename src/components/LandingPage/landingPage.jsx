@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import nuKenzie from "./../../assets/Nu Kenzie.svg";
 import Illustration from "./../../assets/Illustration.svg";
 import { StartButtons } from "../Buttons/buttons";

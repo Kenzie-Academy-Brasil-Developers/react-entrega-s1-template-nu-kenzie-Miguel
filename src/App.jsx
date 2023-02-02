@@ -7,7 +7,6 @@ import "./App.css";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
-  const [trasiction, setTrasiction] = useState([]);
   const [filter, setFilter] = useState("");
   const [page, setLanding] = useState(true);
 
@@ -39,7 +38,6 @@ function App() {
           addTodoToTodoList={addTodoToTodoList}
           removeTodoFromTodoList={removeTodoFromTodoList}
           setFilter={setFilter}
-          trasiction={trasiction}
         />
       </>
     </div>

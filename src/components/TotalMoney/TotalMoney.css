@@ -14,6 +14,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 6px;
+  gap: 10px;
 }
 
 .value-full {
@@ -30,4 +31,13 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 22px;
+}
+
+.value-card {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
 }

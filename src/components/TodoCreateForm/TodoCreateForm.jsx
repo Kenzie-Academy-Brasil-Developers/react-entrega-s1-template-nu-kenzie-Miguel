@@ -50,7 +50,7 @@ export const TodoCreateForm = ({
             <input
               placeholder="R$1"
               className="input-value"
-              type="text"
+              type="number"
               value={formData.content}
               onChange={(event) =>
                 setFormData({ ...formData, content: event.target.value })

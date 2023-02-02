@@ -4,7 +4,7 @@ import "./Card.css";
 
 export const Card = () => {
   return (
-    <div className="test">
+    <div className="div-title">
       <h2 className="sub-title">Você ainda não possui nenhum lançamento</h2>
 
       <div className="div-img">
